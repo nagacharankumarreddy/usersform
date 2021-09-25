@@ -8,11 +8,10 @@
     background: rgba(0, 0, 0, 0.75);
   }
   .modalcontainer{
-    width: 30%;
-    height: 100%;
+    width: 28%;
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 45%;
     /* border-radius: 1rem; */
   }
   .modal {
@@ -52,3 +51,12 @@
       width: 40rem;
     }
   }
+  @media (max-width:480px){
+    .modalcontainer{
+      width: 72%;
+      position: absolute;
+      top: 30%;
+      left: 14%;
+    }
+  }
+ 
